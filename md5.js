@@ -1,3 +1,6 @@
+//copied from http://www.myersdaily.org/joseph/javascript/md5.js
+//Credits to Joseph Myers for the MD5 Javascript.
+
 function md5cycle(x, k) {
 var a = x[0], b = x[1], c = x[2], d = x[3];
 
@@ -133,6 +136,7 @@ return state;
  * providing access to strings as preformed UTF-8
  * 8-bit unsigned value arrays.
  */
+ 
 function md5blk(s) { /* I figured global was faster.   */
 var md5blks = [], i; /* Andy King said do it this way. */
 for (i=0; i<64; i+=4) {
