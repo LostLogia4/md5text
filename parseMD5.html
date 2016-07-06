@@ -1,0 +1,41 @@
+<html><head>
+		<meta charset="UTF-8">
+		<title>MD5 Text Hasher</title>
+		<style>
+			#embeds {
+			    :courier new;font-size:12;
+			  }
+			input {
+				width:500px;
+				margin:5px;
+			}
+		</style>
+	</head>
+	<body>
+	
+		<!-- The script would append the embeddings here. -->
+		<div align="center">
+		<br>
+		<!-- <input id="input" onkeyup="getHash()"/> Salt Input-->
+		<input id="input" onkeyup="getHash()"/> <!--ID Input-->
+		<!-- <input id="input" onkeyup="getHash()"/> Link Input-->
+		<br>
+		<input id="result"/>
+		<br>
+		<button onclick="SaveHash()">Save</button> <!--Result Input-->
+		</div>
+		
+		<!-- The result would appended here on command. -->
+		<pre><div id="embeds"></div></pre>
+		
+		<!-- <div id="console">
+			testing testing
+		</div> -->
+		
+		<!-- Main scripting library -->
+		<script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="md5.js"></script>
+		<script type="text/javascript" src="code.js"></script>
+		
+
+</body></html>
